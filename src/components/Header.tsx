@@ -30,6 +30,12 @@ export default function Header() {
           >
             Recipes
           </NavLink>
+          <NavLink 
+            to="/me" 
+            className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}
+          >
+            Me
+          </NavLink>
         </div>
         <Link 
           to="/cart" 

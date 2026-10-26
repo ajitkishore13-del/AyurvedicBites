@@ -6,7 +6,7 @@
 .main {
   padding-top: 80px;
   min-height: calc(100vh - 80px);
-  padding-bottom: var(--space-16);
+  padding-bottom: calc(90px + var(--space-8));
 }
 
 @media (min-width: 640px) {
@@ -21,6 +21,7 @@
     margin: 0 auto;
     padding-left: var(--space-6);
     padding-right: var(--space-6);
+    padding-bottom: var(--space-12);
   }
 }
 
