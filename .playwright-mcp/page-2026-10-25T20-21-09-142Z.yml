@@ -1,0 +1,124 @@
+- generic [ref=f4e4]:
+  - generic [ref=f4e5]:
+    - generic [ref=f4e6]:
+      - generic [ref=f4e7]:
+        - heading "Customer Info" [level=2] [ref=f4e8]
+        - generic [ref=f4e9]: "* Required"
+      - group [ref=f4e10]:
+        - generic [ref=f4e11]: Email *
+        - textbox "Email *" [ref=f4e12]
+    - generic [ref=f4e13]:
+      - generic [ref=f4e14]:
+        - heading "Address" [level=2] [ref=f4e15]
+        - generic [ref=f4e16]: "* Required"
+      - group [ref=f4e17]:
+        - generic [ref=f4e18]: Full Name *
+        - textbox "Full Name *" [ref=f4e19]
+        - generic [ref=f4e20]: Street Address *
+        - textbox "Street Address *" [ref=f4e21]
+        - textbox "Shipping address optional" [ref=f4e22]
+        - generic [ref=f4e23]:
+          - generic [ref=f4e24]:
+            - generic [ref=f4e25]: City *
+            - textbox "City *" [ref=f4e26]
+          - generic [ref=f4e27]:
+            - generic [ref=f4e28]: State/Province
+            - textbox "State/Province" [ref=f4e29]
+          - generic [ref=f4e30]:
+            - generic [ref=f4e31]: Zip/Postal Code *
+            - textbox "Zip/Postal Code *" [ref=f4e32]
+        - generic [ref=f4e33]: Country *
+        - combobox "Country *" [ref=f4e34]:
+          - option "Canada" [selected]
+    - generic [ref=f4e35]:
+      - heading "We are Shipping soon! Pick Up locations available:" [level=2] [ref=f4e37]
+      - generic [ref=f4e38]:
+        - link "Aanch Modernistic Indian Cuisine" [ref=f4e39] [cursor=pointer]:
+          - /url: https://maps.app.goo.gl/g3byHLYqh4ShWyYA9
+        - link [ref=f4e40] [cursor=pointer]:
+          - /url: https://maps.app.goo.gl/ZZznPMmk5GriZid6A
+          - strong [ref=f4e41]: Chatpatta Chowk
+      - group [ref=f4e42]:
+        - heading "Pick up slots:" [level=2] [ref=f4e45]
+        - radio [ref=f4e48]
+    - group [ref=f4e50]:
+      - generic [ref=f4e51]: Telephone *
+      - textbox "Telephone *" [ref=f4e52]:
+        - /placeholder: Enter telephone number...
+      - generic [ref=f4e53]: We will call you soon as your order is ready for pick up at the chosen location!
+    - generic [ref=f4e54]:
+      - generic [ref=f4e55]:
+        - heading "Payment Info" [level=2] [ref=f4e56]
+        - generic [ref=f4e57]: "* Required"
+      - group [ref=f4e58]:
+        - generic [ref=f4e59]: Card Number *
+        - generic [ref=f4e61]:
+          - iframe [ref=f4e62]:
+            - generic [ref=f6e1]:
+              - generic [aria-hidden]: 0123456789０１２３４５６７８９
+              - textbox [disabled] [aria-hidden]
+              - generic [ref=f6e2]:
+                - textbox "Credit or debit card number" [ref=f6e21]:
+                  - /placeholder: 1234 1234 1234 1234
+                - textbox [aria-hidden]
+                - textbox [aria-hidden]
+                - textbox [aria-hidden]
+              - textbox [disabled] [aria-hidden]
+              - button [aria-hidden]
+          - textbox [disabled] [aria-hidden]
+        - generic [ref=f4e63]:
+          - generic [ref=f4e64]:
+            - generic [ref=f4e65]: Expiration Date *
+            - generic [ref=f4e67]:
+              - iframe [ref=f4e68]:
+                - generic [ref=f7e1]:
+                  - generic [aria-hidden]: 0123456789０１２３４５６７８９
+                  - textbox [disabled] [aria-hidden]
+                  - generic [ref=f7e2]:
+                    - textbox "Credit or debit card expiration date" [ref=f7e5]:
+                      - /placeholder: MM / YY
+                    - textbox [aria-hidden]
+                  - textbox [disabled] [aria-hidden]
+                  - button [aria-hidden]
+              - textbox [disabled] [aria-hidden]
+          - generic [ref=f4e69]:
+            - generic [ref=f4e70]: Security Code *
+            - generic [ref=f4e72]:
+              - iframe [ref=f4e73]:
+                - generic [ref=f8e1]:
+                  - generic [aria-hidden]: 0123456789０１２３４５６７８９
+                  - textbox [disabled] [aria-hidden]
+                  - textbox "Credit or debit card CVC/CVV" [ref=f8e5]:
+                    - /placeholder: CVC
+                  - textbox [disabled] [aria-hidden]
+                  - button [aria-hidden]
+              - textbox [disabled] [aria-hidden]
+        - generic [ref=f4e74]:
+          - checkbox "Billing address same as shipping" [checked] [ref=f4e75]
+          - generic [ref=f4e76]: Billing address same as shipping
+    - generic [ref=f4e77]:
+      - heading "Items in Order" [level=2] [ref=f4e79]
+      - group [ref=f4e80]:
+        - list [ref=f4e81]:
+          - listitem [ref=f4e82]:
+            - generic [ref=f4e83]:
+              - generic [ref=f4e84]:
+                - generic [ref=f4e85]: "Quantity:"
+                - generic [ref=f4e86]: "1"
+              - list [ref=f4e87]:
+                - listitem [ref=f4e88]: ":"
+            - generic [ref=f4e89]: $0.00
+  - generic [ref=f4e90]:
+    - generic [ref=f4e91]:
+      - heading "Order Summary" [level=2] [ref=f4e93]
+      - group [ref=f4e94]:
+        - generic [ref=f4e95]: Subtotal
+        - generic [ref=f4e97]: Total (with 13% HST)
+        - generic [ref=f4e99]: Taxes
+    - generic [ref=f4e100]:
+      - generic [ref=f4e101]: Discount Code
+      - textbox "Discount Code" [ref=f4e102]:
+        - /placeholder: ""
+      - button "Apply Discount" [ref=f4e103] [cursor=pointer]: Apply
+    - link "Place Order" [ref=f4e104] [cursor=pointer]:
+      - /url: "#"

@@ -1,0 +1,33 @@
+.app {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #ECFDF5 0%, #f9fafb 100%);
+}
+
+.main {
+  padding-top: 80px;
+  min-height: calc(100vh - 80px);
+  padding-bottom: var(--space-16);
+}
+
+@media (min-width: 640px) {
+  .main {
+    padding-bottom: var(--space-12);
+  }
+}
+
+@media (min-width: 768px) {
+  .main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: var(--space-6);
+    padding-right: var(--space-6);
+  }
+}
+
+@media (min-width: 1024px) {
+  .main {
+    max-width: 1300px;
+    padding-left: var(--space-8);
+    padding-right: var(--space-8);
+  }
+}

@@ -1,0 +1,103 @@
+- generic [active] [ref=f42e1]:
+  - link [ref=f42e4] [cursor=pointer]:
+    - /url: /mithai
+  - generic [ref=f42e6]:
+    - link "menu Close" [ref=f42e10] [cursor=pointer]:
+      - /url: "#"
+      - generic [ref=f42e11]:
+        - generic [ref=f42e12]: menu
+        - generic [ref=f42e13]: Close
+    - generic [ref=f42e16]:
+      - heading "Familiar Flavours. REIMAGINED." [level=2] [ref=f42e17]
+      - paragraph [ref=f42e18]: Artisanal, chef-crafted essentials inspired by tradition, redefined for today’s kitchen.
+      - link "Shop Now" [ref=f42e19] [cursor=pointer]:
+        - /url: /shop
+      - link "Events" [ref=f42e20] [cursor=pointer]:
+        - /url: /events
+  - generic [ref=f42e21]:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic: We grew up on these flavours.We mastered them.And then we asked — what else can they become?At Shudh, every creation honours Indian culinary tradition while daring to evolve it. Crafted by a chef and inspired by generations, each blend, each jar, each bite carries both memory and momentum.
+              - generic: FAMILIAR. FEARLESS.UNMISTAKABLY SHUDH.
+  - generic [ref=f42e24]:
+    - heading "flavour essentials" [level=2] [ref=f42e25]
+    - generic [ref=f42e28]:
+      - link "MALABAR PEPPER ROAST SHOP NOW" [ref=f42e30] [cursor=pointer]:
+        - /url: /shop
+        - generic [ref=f42e31]:
+          - generic [ref=f42e32]: MALABAR PEPPER ROAST
+          - generic [ref=f42e33]: SHOP NOW
+      - link "APPLE MINT CHUTNEY SHOP NOW" [ref=f42e36] [cursor=pointer]:
+        - /url: /shop
+        - generic [ref=f42e37]:
+          - generic [ref=f42e38]: APPLE MINT CHUTNEY
+          - generic [ref=f42e39]: SHOP NOW
+      - link "CHICKPEA CURRY SHOP NOW" [ref=f42e42] [cursor=pointer]:
+        - /url: /shop
+        - generic [ref=f42e43]:
+          - generic [ref=f42e44]: CHICKPEA CURRY
+          - generic [ref=f42e45]: SHOP NOW
+      - link "BASIL GARLIC PANEER SHOP NOW" [ref=f42e48] [cursor=pointer]:
+        - /url: /shop
+        - generic [ref=f42e49]:
+          - generic [ref=f42e50]: BASIL GARLIC PANEER
+          - generic [ref=f42e51]: SHOP NOW
+  - generic [ref=f42e53]:
+    - link [ref=f42e55] [cursor=pointer]:
+      - /url: /all-products
+      - heading "THE ART" [level=1] [ref=f42e56]
+      - paragraph [ref=f42e57]:
+        - emphasis [ref=f42e58]: Shudh is for those chaotic nights, when the fridge is half-empty, the clock is ticking, and you just want something real.READ MORE
+    - link [ref=f42e60] [cursor=pointer]:
+      - /url: /about-shudh
+      - heading "THE ARTIST" [level=2] [ref=f42e61]
+      - paragraph [ref=f42e62]:
+        - emphasis [ref=f42e63]: Born from Chef Sudhanshu Kumar’s passion for bold, unexpected flavours, every spoonful of Shudh is a little spark of magic.READ MORE
+  - generic [ref=f42e66]:
+    - heading "Recipes" [level=2] [ref=f42e67]
+    - generic [ref=f42e68]:
+      - link:
+        - /url: /shudh-recipes
+      - link:
+        - /url: /shudh-recipes
+      - link:
+        - /url: /shudh-recipes
+  - generic [ref=f42e72]:
+    - link [ref=f42e73] [cursor=pointer]:
+      - /url: /shop
+    - generic [ref=f42e75]:
+      - heading "nEW ARrivals" [level=2] [ref=f42e76]
+      - link "SHOP NOW" [ref=f42e77] [cursor=pointer]:
+        - /url: /shop
+    - link [ref=f42e79] [cursor=pointer]:
+      - /url: /shop
+  - generic [ref=f42e81]:
+    - generic [ref=f42e84]:
+      - heading "NEVER MISS A TASTE" [level=3] [ref=f42e85]
+      - form "Subscribe Form" [ref=f42e87]:
+        - textbox "Your Email" [ref=f42e88]
+        - button "Subscribe" [ref=f42e89] [cursor=pointer]
+    - generic [ref=f42e92]:
+      - generic [ref=f42e93]:
+        - heading "Get in Touch" [level=1] [ref=f42e94]
+        - form "Footer Query Form" [ref=f42e95]:
+          - textbox "Name" [ref=f42e96]
+          - textbox "Email" [ref=f42e97]
+          - textbox "Query" [ref=f42e98]
+          - button "Submit" [ref=f42e99] [cursor=pointer]
+      - generic [ref=f42e100]:
+        - generic [ref=f42e101]:
+          - generic [ref=f42e102]: Contact
+          - 'link "Phone: +1 647 588 0513" [ref=f42e103] [cursor=pointer]':
+            - /url: tel:+16475880513
+          - generic [ref=f42e104]: CONNECT
+          - link "INSTAGRAM" [ref=f42e105] [cursor=pointer]:
+            - /url: https://www.instagram.com/getshudh?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==
+          - link "TIKTOK" [ref=f42e106] [cursor=pointer]:
+            - /url: https://www.tiktok.com
+        - link [ref=f42e108] [cursor=pointer]:
+          - /url: /
+      - generic [ref=f42e109]: © 2026 SHUDH, tORONTO
