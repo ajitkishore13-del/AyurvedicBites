@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Sparkles, Play, X } from 'lucide-react';
+import { Sparkles, Play } from 'lucide-react';
 import './Home.css';
 
 export default function Home() {
