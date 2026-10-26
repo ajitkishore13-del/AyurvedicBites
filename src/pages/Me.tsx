@@ -1,7 +1,11 @@
-import { User, Leaf, Mail } from 'lucide-react';
+import { User, Leaf, Mail, LogIn, LogOut } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { useAuth } from '../context/AuthContext';
 import './Me.css';
 
 export default function Me() {
+  const { user, logout } = useAuth();
+
   return (
     <div className="me">
       <header className="me-header">
@@ -9,10 +13,22 @@ export default function Me() {
           <User size={32} aria-hidden="true" />
         </div>
         <div>
-          <h1 className="me-title">My Account</h1>
-          <p className="me-subtitle">AyurvedicBites</p>
+          <h1 className="me-title">{user ? user.name : 'Guest'}</h1>
+          <p className="me-subtitle">{user ? user.email : 'Sign in to your account'}</p>
         </div>
       </header>
+
+      {user ? (
+        <button onClick={logout} className="me-logout-btn">
+          <LogOut size={18} aria-hidden="true" />
+          Sign Out
+        </button>
+      ) : (
+        <Link to="/login" className="me-login-btn">
+          <LogIn size={18} aria-hidden="true" />
+          Sign In / Sign Up
+        </Link>
+      )}
 
       <section className="me-section">
         <h2 className="me-section-title">About</h2>
