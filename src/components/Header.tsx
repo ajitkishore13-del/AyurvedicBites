@@ -10,6 +10,7 @@ export default function Header() {
   return (
     <header className="header" role="banner">
       <nav className="header-container" aria-label="Main navigation">
+        <div className="header-left"></div>
         <Link to="/" className="logo" aria-label="AyurvedicBites home">
           <div className="logo-icon">
             <Leaf size={22} aria-hidden="true" />
@@ -37,18 +38,20 @@ export default function Header() {
             Me
           </NavLink>
         </div>
-        <Link 
-          to="/cart" 
-          className="cart-button" 
-          aria-label={`Shopping cart with ${count} ${count === 1 ? 'item' : 'items'}`}
-        >
-          <ShoppingCart size={22} aria-hidden="true" />
-          {count > 0 && (
-            <span className="cart-badge" aria-hidden="true">
-              {count > 99 ? '99+' : count}
-            </span>
-          )}
-        </Link>
+        <div className="header-right">
+          <Link 
+            to="/cart" 
+            className="cart-button" 
+            aria-label={`Shopping cart with ${count} ${count === 1 ? 'item' : 'items'}`}
+          >
+            <ShoppingCart size={22} aria-hidden="true" />
+            {count > 0 && (
+              <span className="cart-badge" aria-hidden="true">
+                {count > 99 ? '99+' : count}
+              </span>
+            )}
+          </Link>
+        </div>
       </nav>
     </header>
   );
