@@ -9,6 +9,13 @@
   padding-bottom: calc(90px + var(--space-8));
 }
 
+@media (max-width: 640px) {
+  .main {
+    padding-top: 56px;
+    padding-bottom: calc(70px + var(--space-6));
+  }
+}
+
 @media (min-width: 640px) {
   .main {
     padding-bottom: var(--space-12);

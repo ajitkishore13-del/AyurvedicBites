@@ -163,11 +163,49 @@
 }
 
 @media (max-width: 640px) {
+  .header {
+    background: var(--color-surface);
+  }
+  
+  .header-container {
+    padding: var(--space-2) var(--space-4);
+    min-height: 56px;
+    justify-content: space-between;
+  }
+  
   .nav-links {
     display: none;
   }
   
+  .logo {
+    gap: var(--space-2);
+  }
+  
+  .logo-icon {
+    padding: var(--space-1);
+  }
+  
   .logo-text {
-    display: none;
+    display: block;
+    font-size: 0.9375rem;
+  }
+  
+  .cart-button {
+    width: 38px;
+    height: 38px;
+    padding: var(--space-1);
+  }
+  
+  .cart-button svg {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .cart-badge {
+    min-width: 22px;
+    height: 22px;
+    font-size: 0.6875rem;
+    top: -4px;
+    right: -4px;
   }
 }
