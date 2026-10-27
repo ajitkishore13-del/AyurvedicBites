@@ -5,67 +5,67 @@
 }
 
 :root {
-  /* Color tokens - ui-ux-pro-max: Vibrant & Block-based */
-  --color-bg: #ECFDF5;
+  /* Ayurvedic earth palette - warm, grounded */
+  --color-bg: #f7f3ed;
   --color-surface: #ffffff;
-  --color-border: #a7f3d0;
-  --color-border-strong: #6ee7b7;
+  --color-border: #d4c4b0;
+  --color-border-strong: #b8a089;
   
-  --color-text-primary: #064E3B;
-  --color-text-secondary: #065f46;
-  --color-text-tertiary: #047857;
-  --color-text-inverse: #ffffff;
+  --color-text-primary: #2d1810;
+  --color-text-secondary: #4a2c20;
+  --color-text-tertiary: #6b4e3d;
+  --color-text-inverse: #f7f3ed;
   
-  --color-primary: #059669;
-  --color-primary-hover: #047857;
-  --color-primary-active: #065f46;
-  --color-primary-subtle: #d1fae5;
-  --color-primary-subtle-text: #065f46;
+  --color-primary: #8b4513;
+  --color-primary-hover: #654321;
+  --color-primary-active: #4a2c17;
+  --color-primary-subtle: #e6d7c3;
+  --color-primary-subtle-text: #4a2c20;
   
-  --color-cta: #F97316;
-  --color-cta-hover: #EA580C;
-  --color-cta-active: #C2410C;
-  --color-cta-subtle: #fed7aa;
-  --color-cta-subtle-text: #9a3412;
+  --color-cta: #d2691e;
+  --color-cta-hover: #b85d1a;
+  --color-cta-active: #8b4513;
+  --color-cta-subtle: #f4e4d7;
+  --color-cta-subtle-text: #654321;
   
-  --color-secondary: #10B981;
+  --color-accent: #6b8e23;
+  --color-accent-subtle: #e8f5e9;
   
-  --color-danger: #dc2626;
-  --color-danger-subtle: #fef2f2;
-  --color-danger-subtle-hover: #fee2e2;
+  --color-danger: #8b2635;
+  --color-danger-subtle: #fdf2f4;
+  --color-danger-subtle-hover: #fce8eb;
   
-  /* Spacing scale - generous like pro design */
-  --space-1: 0.25rem; /* 4px */
-  --space-2: 0.5rem;  /* 8px */
-  --space-3: 0.75rem; /* 12px */
-  --space-4: 1rem;    /* 16px */
-  --space-5: 1.25rem; /* 20px */
-  --space-6: 1.5rem;  /* 24px */
-  --space-8: 2rem;    /* 32px */
-  --space-10: 2.5rem; /* 40px */
-  --space-12: 3rem;   /* 48px */
-  --space-16: 4rem;   /* 64px */
+  /* Spacing scale */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
   
-  /* Border radius - block-based style */
-  --radius-sm: 8px;
-  --radius-md: 12px;
-  --radius-lg: 16px;
-  --radius-xl: 24px;
+  /* Border radius - minimal, organic */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
   --radius-full: 9999px;
   
-  /* Shadows - bolder for vibrant style */
-  --shadow-sm: 0 1px 2px 0 rgb(6 78 59 / 0.05);
-  --shadow: 0 4px 6px -1px rgb(6 78 59 / 0.1), 0 2px 4px -2px rgb(6 78 59 / 0.1);
-  --shadow-md: 0 10px 15px -3px rgb(6 78 59 / 0.15), 0 4px 6px -4px rgb(6 78 59 / 0.15);
-  --shadow-lg: 0 20px 25px -5px rgb(6 78 59 / 0.2), 0 8px 10px -6px rgb(6 78 59 / 0.2);
+  /* Shadows - subtle, natural */
+  --shadow-sm: 0 1px 3px 0 rgb(45 24 16 / 0.08);
+  --shadow: 0 2px 8px -1px rgb(45 24 16 / 0.12), 0 1px 3px -1px rgb(45 24 16 / 0.08);
+  --shadow-md: 0 4px 12px -2px rgb(45 24 16 / 0.15), 0 2px 6px -2px rgb(45 24 16 / 0.1);
+  --shadow-lg: 0 8px 24px -4px rgb(45 24 16 / 0.18), 0 4px 12px -4px rgb(45 24 16 / 0.12);
   
-  /* Typography - ui-ux-pro-max recommendation */
-  font-family: 'Nunito Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  line-height: 1.7;
+  /* Typography */
+  font-family: 'Crimson Pro', 'Lora', Georgia, serif;
+  line-height: 1.8;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 17px;
 
   color: var(--color-text-primary);
   background-color: var(--color-bg);
@@ -77,11 +77,11 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Rubik', 'Nunito Sans', sans-serif;
-  line-height: 1.15;
-  font-weight: 700;
+  font-family: 'Cormorant', 'Crimson Pro', Georgia, serif;
+  line-height: 1.2;
+  font-weight: 600;
   color: var(--color-text-primary);
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
 }
 
 body {

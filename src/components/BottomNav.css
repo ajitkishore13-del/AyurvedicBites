@@ -9,12 +9,12 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(255, 255, 255, 0.98);
-    backdrop-filter: blur(10px);
-    border-top: 2px solid var(--color-border);
+    background: rgba(247, 243, 237, 0.98);
+    backdrop-filter: blur(8px);
+    border-top: 1px solid var(--color-border);
     padding: var(--space-2) 0 calc(var(--space-2) + env(safe-area-inset-bottom, 0));
     z-index: 100;
-    box-shadow: 0 -4px 6px -1px rgb(6 78 59 / 0.05);
+    box-shadow: 0 -2px 8px -1px rgb(45 24 16 / 0.08);
   }
 
   .bottom-nav-item {
@@ -28,6 +28,7 @@
     padding: var(--space-2);
     transition: all 0.2s ease;
     text-decoration: none;
+    font-family: 'Crimson Pro', serif;
   }
 
   .bottom-nav-item.active {
